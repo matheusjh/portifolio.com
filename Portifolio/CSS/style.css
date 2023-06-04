@@ -1,0 +1,970 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'League Spartan', sans-serif;
+}
+
+/* 
+NAVIGATION
+*/
+
+html, body{
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    body{
+        position: relative;
+    }
+
+.navigation{
+    box-shadow: 0 10px 10px 4px rgba(0,0,0,.2);
+    display: inline;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    height: 9vh;
+    background-color:white;
+    opacity: .9;
+}
+
+ul{
+    width: 100%;
+    margin-top: 3vh;
+    text-align: center;
+}
+
+ul li{
+    list-style-type:none;
+    display: inline;
+    padding-right: 5%;
+    font-size: 1.7vw;
+}
+
+a{
+    text-decoration-line: none;
+    text-decoration-color: black;
+    color: black;
+}
+
+.home a:hover {
+    color: #f27f2c;
+    font-size: 103%;
+}
+
+.about a:hover {
+    color: #f27f2c;
+    font-size: 103%;
+}
+
+.project a:hover{
+    color: #f27f2c;
+    font-size: 103%;
+}
+
+.skill a:hover{
+    color: #f27f2c;
+    font-size: 103%;
+}
+
+.contact a:hover{
+    color: #f27f2c;
+    font-size: 103%;
+}
+
+/* 
+INTRO
+*/
+
+.introBackground{
+    background:url(/IMGs/BACKGROUND.jpg);
+    background-size: cover;
+    max-width:100%;
+    max-height:100%;
+}
+
+
+.intro{
+    padding-top: 10vh;
+    padding-bottom: 100vh;
+}
+
+.introSection {
+    margin-top: 100px;
+    text-align: left;
+    padding-top: 10vh;
+    padding-left: 10vh;
+    font-size: 5vw;
+    color: whitesmoke;
+    width: 100%;
+    height: 100%;
+}
+
+.intro button{
+    text-align: center;
+    margin-left: 5%;
+    width: 18%;
+    padding: 0;
+    height: 10vh;
+    font-size: 2.3vw;
+    font-weight: 900;
+    background-color: #973636;
+    border-top: #973636;
+    border-bottom: #973636;
+    border-right: #973636;
+    border-left: #973636;
+    color: white;
+}
+
+.surname{
+    color: #f27f2c;
+    display: inline;
+}
+
+.multiColor{
+    color: #973636;
+    font-size: 6vh;
+    display: flex;
+    margin-left: 10vh;
+    margin-bottom: 50px;
+}   
+
+
+/* 
+ABOUT SECTION!
+ */
+
+ .me{
+    display: inline;
+    color: #f27f2c;
+ }
+
+
+.background{
+    background-color: #e5ecfb;
+    color: black;
+    border-top: #e5ecfb solid 20px;
+    border-bottom: #e5ecfb solid 50px;
+    width: 100%;
+    background-size: cover;
+}
+
+
+.aboutSec h1{
+    margin-top: 1%;
+}
+
+.textSec h1{
+    margin-right: 40%;
+    margin-left: 1%;
+    margin-top: 3%;
+    text-decoration: none;
+    text-align: left;
+    font-weight:500;
+}
+
+.aboutSec{
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 800;
+}
+
+
+.profilePic img{
+    width: 15%;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px 4px rgba(.2,.2,.2,.2);
+    margin-left: 25%;
+    margin-top: 2%;
+    float:left
+}
+
+.textSec{
+    margin-top: 2%;
+    width: 55%;
+    float: right;
+}
+
+.textSec .title{
+    font-weight: 600;
+    color: black;
+    font-size: 3vw;
+}
+
+.textSec .subSection{
+    font-weight: 900;
+    color: #973636;
+    font-size: 2vw;
+    margin-top: 2px;
+}
+
+.textSec .aboutSection{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    font-size: 2vw;
+}
+
+.textSec .detailSection{
+    margin-top: 5%;
+    font-size: 1.7vw;
+}
+
+.textSec .locationSection{
+    margin-top: 2%;
+}
+
+.textSec .styleDetailSection{
+    color: #f27f2c;
+    display: inline;
+    font-weight: 600;
+}
+
+/* 
+PROJECT SECTION!
+*/
+ 
+.projectSec h1{
+    color: #f27f2c;
+    text-align: center;
+    font-size: 5vw;
+    font-weight: 800;
+    margin-top: 5%;
+}
+
+.title{
+    display: inline-flex;
+    color: #973636;
+    margin-top: 10vh;
+    margin-left: 2vw;
+    font-size: 3vw;
+    font-weight: 500;
+}
+
+.projectIntro{
+    color: white;
+    margin-top: 5vh;
+    margin-left: 2vw;
+    font-size: 2vw;
+    width: 90%;
+}
+
+
+.btnStyle{
+    margin-top: 3%;
+    margin-left: 2%;
+    font-size: 2vw;
+    background-color: #973636;
+    border-radius: 20vw;
+    border-width: 1.5vw;
+    border-color: #973636;
+    border-style: solid;
+    color: white;
+    text-decoration-color: white;
+    color: white;
+    width: 96%;
+    cursor: pointer;
+}
+
+button a {
+    color: white;
+}
+
+.projectImage img{
+    height: auto;
+    margin-top: 2vh;
+    border-radius: 30px;
+    width: 98%;
+}
+
+.projectImage img:hover{
+    cursor: pointer;
+}
+
+.backgroundProject{
+    background-color: #262626;
+    border-top: #262626 solid 1px;
+    border-bottom: #262626 solid 50px;
+    width: 100%;
+}
+
+.clear
+{
+  clear: both;
+}
+
+.skills img{
+    width: 12%;
+    margin-top: 2%;
+    margin-left: 2%;
+}
+
+.skills h1{
+    font-size: 2vw;
+    margin-top: 3%;
+    margin-left: 2%;
+    color: #f27f2c;
+}
+
+
+
+/* 
+    CONTACT SECTION!
+*/
+
+.contactBackground{
+    background-color: #e5ecfb;
+    display: block;
+    font-size: 5vw;
+    margin-bottom: -90px;
+    border-bottom: #e5ecfb solid 50px;
+}
+
+.contactTitle{
+    padding-top: 50px;
+    text-align: center;
+    font-weight:800;
+    display: block;
+}
+
+.touch{
+    color: #f27f2c;
+    display: inline;
+}
+
+.contactSection{
+    margin: 5%;
+    text-align: center;
+}
+
+.textBoxes{
+    margin: 0.5%;
+    width: 50%;
+    height: 5vh;
+    font-size:2vw;
+    text-indent: 10px;
+    padding-top: 16px;
+    border-radius: 8px;
+    border-color: #262626;
+    resize: none;
+}
+
+.messageBox{
+    resize: none;
+    font-size:2vw;
+    text-indent: 10px;
+    padding-top: 5px;
+    margin: 0.5%;
+    width: 50%;
+    height: 20vh;
+    border-radius: 8px;
+    border-color: #262626;
+}
+
+.btnMessage button{
+    text-align: center;
+    width: 20%;
+    height: 4vw;
+    border-radius: 30px;
+    font-size: 2vw;
+    background-color: #262626;
+    border-top: #262626;
+    border-bottom: #262626;
+    border-right: #262626;
+    border-left: #262626;
+    color: white;
+}
+
+.btnMessage button:hover{
+    cursor: pointer;
+}
+
+/* 
+FOOTER SECTION!
+*/
+
+.footerBackground {
+    bottom: 0;
+    background-color: #10131d;
+    border-bottom: #10131d solid 100px;
+    font-size: 1.5vw;
+    margin-top: -75px;
+}
+
+.footer{
+    display: flex;
+}
+
+.columnOne {
+    float: left;
+    color: white;
+    padding-left: 7%;
+    font-weight: 100;
+    margin: auto;
+    width: 50%;
+    padding-top: 2.8%;
+}
+
+.columnOne h1{
+    font-weight: 100;
+    color: #f27f2c;
+}
+
+.columnOne h3{
+    font-weight: 100;
+    padding-top: 5%;
+}
+
+.columnTwo {
+    width: 33.3%;
+    float: right;
+    color: white;
+    padding-top: 6%;
+    padding-left: 7%;
+    font-weight: 100;
+    margin: auto;
+    width: 50%;
+}
+
+.columnTwo h1{
+    color: #f27f2c;
+    font-weight: 100;
+}
+
+.columnTwo li{
+    font-weight: 100;
+    padding-top: 4%;
+    display: flex;
+    text-align: center;
+}
+
+.homeFooter{
+    display: inline;
+    text-align: center;
+}
+
+.footerNav li a{
+    color: white;
+}
+
+
+.line{
+    margin-top: 0;
+    border-bottom: 1px solid #f27f2c;
+    margin: auto;
+    width: 88%;
+    position: relative;
+    transform: translateY(5vh);
+}
+
+.designBy {
+    text-align: center;
+}
+
+.designBy h1{
+    color: white;
+    margin-top: 5%;
+    font-size: 1.5vw;
+    font-weight: 100;
+}
+
+.footerSurname {
+    color: #f27f2c;
+    display: inline;
+}
+
+
+
+@media (min-width: 50px) and (max-width: 600px)
+{
+
+    html, body{
+        overflow-x: hidden;
+    }
+
+    body{
+        position: relative;
+    }
+
+    .navigation{
+        box-shadow: 0 10px 10px 4px rgba(0,0,0,.2);
+        display: inline;
+        position: fixed;
+        top: 0;
+        width: 100%;
+        height: 8vh;
+        background-color:white;
+        opacity: .9;
+    }
+
+    ul{
+        width: 100%;
+        margin-top: 3vh;
+        text-align: center;
+    }
+
+    ul li{
+        list-style-type:none;
+        display: inline;
+        padding-right: 5%;
+        font-size: 5.5vw;
+    }
+
+    a{
+        text-decoration-line: none;
+        text-decoration-color: black;
+        color: black;
+    }
+
+    .home a:hover {
+        color: #f27f2c;
+    }
+
+    .about a:hover {
+        color: #f27f2c;
+    }
+
+    .project a:hover{
+        color: #f27f2c;
+    }
+
+    .skill a:hover{
+        color: #f27f2c;
+    }
+
+    .contact a:hover{
+        color: #f27f2c;
+    }
+
+
+    /* 
+    INTRO
+    */
+    
+    .introBackground{
+        background:url(/IMGs/BACKGROUND.jpg);
+        background-size: cover;
+        max-width:100%;
+        max-height:100%;
+    }
+
+
+    .intro{
+        padding-top: 1vh;
+        padding-bottom: 11vh;
+    }
+
+    .introSection {
+        margin-top: 10vh;
+        text-align: left;
+        padding-top: 4vh;
+        padding-left: 10vw;
+        font-size: 350%;
+        color: whitesmoke;
+        width: 100%;
+        height: 100%;
+    }
+
+    .intro button{
+        text-align: center;
+        margin-left: 10vw;
+        width: 65%;
+        padding: 0;
+        height: 11vh;
+        font-size: 6vw;
+        font-weight: 900;
+        background-color: #973636;
+        border-top: #973636;
+        border-bottom: #973636;
+        border-right: #973636;
+        border-left: #973636;
+        color: white;
+    }
+
+    .surname{
+        color: #f27f2c;
+        display: inline;
+    }
+
+    .multiColor{
+        text-align: left;
+        color: #973636;
+        font-size: 150%;
+        display:flex;
+        margin-bottom: 50px;
+        margin-left: 0px;
+        padding-left: 10vw;
+    }
+    
+    
+    .textSec .locationSection{
+        margin-top: 3%;
+    }
+    
+    .textSec .styleDetailSection{
+        color: #f27f2c;
+        display: inline;
+        font-weight: 600;
+    }
+    
+
+    /* 
+    ABOUT SECTION!
+    */
+
+    .me{
+        display: inline;
+        color: #f27f2c;
+    }
+
+
+    .background{
+        background-color: #e5ecfb;
+        color: black;
+        border-top: #e5ecfb solid 20px;
+        border-bottom: #e5ecfb solid 50px;
+        width: 100%;
+        background-size: cover;
+    }
+
+
+    .aboutSec h1{
+        margin-top: 1%;
+    }
+
+    .textSec h1{
+        margin-right: 40%;
+        margin-left: 1%;
+        margin-top: 3%;
+        text-decoration: none;
+        text-align: left;
+        font-weight:500;
+    }
+
+    .aboutSec{
+        text-align: center;
+        font-size: 12vw;
+        font-weight: 800;
+    }
+
+
+    .profilePic img{
+        width: 50%;
+        border-radius: 30px;
+        box-shadow: 0 10px 10px 4px rgba(.2,.2,.2,.2);
+        margin-left: 25%;
+        margin-top: 10%;
+    }
+
+    .textSec{
+        margin-top: 5%;
+        margin-left: 10vw;
+        width: 100%;
+        text-align: center;
+        width: 100%;
+    }
+
+    .textSec .title{
+        font-weight: 600;
+        color: black;
+        font-size: 9vw;
+        margin-left: 23vw;
+        width: 100%;
+    }
+
+    .textSec .subSection{
+        font-weight: 900;
+        color: #973636;
+        font-size: 5vw;
+        margin-top: 2px;
+        width: 100%;
+        margin-left: 19vw;
+    }
+
+    .textSec .aboutSection{
+        margin-top: 30px;
+        margin-bottom: 20px;
+        margin-left: 5vw;
+        font-size: 5vw;
+        width: 100%;
+    }
+
+    .textSec .detailSection{
+        margin-top: 5%;
+        margin-left: 5vw;
+        font-size: 5vw;
+        width: 100%;
+    }
+
+    .textSec .locationSection{
+        margin-top: 2%;
+    }
+
+    .textSec .styleDetailSection{
+        color: #f27f2c;
+        display: inline;
+        font-weight: 600;
+    }
+
+
+    
+    /* 
+    PROJECT SECTION!
+    */
+    
+    .projectSec h1{
+        color: #f27f2c;
+        text-align: center;
+        font-size: 5vw;
+        font-weight: 800;
+        margin-top: 5%;
+    }
+
+    .title{
+        display: inline-flex;
+        color: #973636;
+        margin-top: 5vh;
+        margin-left: 2vw;
+        font-size: 5vw;
+        font-weight: 500;
+    }
+
+    .projectIntro{
+        color: white;
+        margin-top: 2vh;
+        margin-left: 2vw;
+        font-size: 5vw;
+        width: 90%;
+    }
+
+
+    .btnStyle{
+        margin-top: 3%;
+        margin-left: 2%;
+        font-size: 4vw;
+        background-color: #973636;
+        border-radius: 20vw;
+        border-width: 1.5vw;
+        border-color: #973636;
+        border-style: solid;
+        color: white;
+        text-decoration-color: white;
+        color: white;
+        width: 96%;
+        cursor: pointer;
+    }
+
+    button a {
+        color: white;
+    }
+
+    .projectImage img{
+        height: auto;
+        margin-top: 2vh;
+        border-radius: 30px;
+        width: 98%;
+    }
+
+    .projectImage img:hover{
+        cursor: pointer;
+    }
+
+    .backgroundProject{
+        background-color: #262626;
+        border-top: #262626 solid 1px;
+        border-bottom: #262626 solid 50px;
+        width: 100%;
+    }
+
+    .clear
+    {
+    clear: both;
+    }
+
+    .skills img{
+        width: 12%;
+        margin-top: 2%;
+        margin-left: 2%;
+    }
+
+    .skills h1{
+        font-size: 2vw;
+        margin-top: 3%;
+        margin-left: 2%;
+        color: #f27f2c;
+    }
+
+    .projects {
+        width: 200%;
+        float:none;
+        display:grid;
+    }
+    
+    
+    /* 
+        CONTACT SECTION!
+    */
+
+    .contactBackground{
+        background-color: #e5ecfb;
+        display: block;
+        font-size: 10vw;
+        margin-bottom: -90px;
+        border-bottom: #e5ecfb solid 50px;
+    }
+
+    .contactTitle{
+        padding-top: 50px;
+        text-align: center;
+        font-weight:800;
+        display: block;
+    }
+
+    .touch{
+        color: #f27f2c;
+        display: inline;
+    }
+
+    .contactSection{
+        margin: 5%;
+        text-align: center;
+    }
+
+    .textBoxes{
+        margin: 1%;
+        width: 100%;
+        height: 2vh;
+        font-size:5vw;
+        text-indent: 10px;
+        padding-top: 10px;
+        border-radius: 8px;
+        border-color: #262626;
+        resize: none;
+    }
+
+    .messageBox{
+        resize: none;
+        font-size:5vw;
+        text-indent: 10px;
+        padding-top: 5px;
+        margin: 1%;
+        margin-top: 3%;
+        width: 100%;
+        height: 20vh;
+        border-radius: 8px;
+        border-color: #262626;
+    }
+
+    .btnMessage button{
+        text-align: center;
+        width: 50%;
+        height: 10vw;
+        border-radius: 30px;
+        font-size: 5vw;
+        background-color: #262626;
+        border-top: #262626;
+        border-bottom: #262626;
+        border-right: #262626;
+        border-left: #262626;
+        color: white;
+        margin-bottom: 50px;
+    }
+
+    .btnMessage button:hover{
+        cursor: pointer;
+    }
+    /* 
+    FOOTER SECTION!
+    */
+
+    .footerBackground {
+        bottom: 0;
+        background-color: #10131d;
+        border-bottom: #10131d solid 100px;
+        font-size: 3vw;
+        margin-top: -75px;
+    }
+
+    .footer{
+        display: inline-flex;
+    }
+
+    .columnOne {
+        float: left;
+        color: white;
+        padding-left: 7%;
+        font-weight: 100;
+        width: 50%;
+        padding-top: 6.5%;
+    }
+
+    .columnOne h1{
+        font-weight: 100;
+        color: #f27f2c;
+    }
+
+    .columnOne h3{
+        font-weight: 100;
+        padding-top: 5%;
+    }
+
+    .columnTwo {
+        width: 50%;
+        float: right;
+        color: white;
+        padding-top: 6%;
+        padding-left: 0%;
+        font-weight: 100;
+        margin: auto;
+        width: 50%;
+        font-size: 3vw;
+    }
+
+    .columnTwo h1{
+        color: #f27f2c;
+        font-weight: 100;
+    }
+
+    .columnTwo li{
+        font-size: 3.5vw;
+        font-weight: 100;
+        padding-top: 0px;
+        display: flex;
+        text-align: center;
+    }
+
+    .homeFooter{
+        display: inline;
+        text-align: center;
+    }
+
+    .footerNav li a{
+        color: white;
+    }
+
+
+    .line{
+        margin-top: 0;
+        border-bottom: 1px solid #f27f2c;
+        margin: auto;
+        width: 88%;
+        position: relative;
+        transform: translateY(3vh);
+    }
+
+    .designBy {
+        text-align: center;
+    }
+
+    .designBy h1{
+        color: white;
+        margin-top: 10%;
+        font-size: 3.8vw;
+        font-weight: 100;
+    }
+
+    .footerSurname {
+        color: #f27f2c;
+        display: inline;
+    }
+
+}
